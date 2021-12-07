@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Shared Element</string>
+    <string name="transition_name">sharedElementDemoTransit</string>
+    <string name="gateway_of_india">Gateway Of India</string>
+    <string name="taj_mahal">Taj Mahal</string>
+    <string name="varanasi">Varanasi City</string>
+    <string name="red_fort">Red Fort</string>
+    <string name="about_taj_mahal">The Taj Mahal is an Islamic religious building, mosque and tomb built in the 17th century by king Shah Jahan in memory of his wife, Mumtaz Mahal. Its chief architect was Ustad Ahmad Lahauri. The building is in the city of Agra, Uttar Pradesh. ... It is located on the south bank of Yamuna river in Agra.</string>
+    <string name="about_gateway_of_india">The Gateway of India is an arch monument built during the 20th century in Bombay, India. The monument was erected to commemorate the landing of King George V and Queen Mary at Apollo Bunder on their visit to India in 1911. ... It served to allow entry and access to India.</string>
+    <string name="about_varansi">Varanasi is one of the oldest continuously inhabited cities in the world. Its early history is that of the first Aryan settlement in the middle Ganges valley. Varanasi was the capital of the kingdom of Kashi during the time of the Buddha (6th century bce), who gave his first sermon nearby at Sarnath. ...</string>
+    <string name="about_red_fort">The Red Fort (Lal Qila) is a monument built in 1638 that rises 33 meters (108 ft) above Old Delhi. It was built by the Mughal Emperor Shah Jahan. ... The Red Fort was originally referred to as "Qila-i-Mubarak" (the blessed fort), because it was the residence of the royal family.</string>
+    <string name="just_click_on_image">**Just Click On Image**</string>
+</resources>
