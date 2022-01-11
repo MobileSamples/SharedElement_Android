@@ -16,7 +16,6 @@ Examples of such transitions are slide transition, fade transition, and explode 
 
 ![Alt Text](https://eww-wp-new.s3.ap-south-1.amazonaws.com/wp-content/uploads/2022/01/11124324/gif-04.gif)
 
-(http://eww-wp-new.s3.ap-south-1.amazonaws.com/wp-content/uploads/2022/01/04121439/SharedElement_Android.gif)
 
 
 ## Requirement
