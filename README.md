@@ -14,7 +14,7 @@ Examples of such transitions are slide transition, fade transition, and explode 
 
 ![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
 
-![Alt Text](http://eww-wp-new.s3.ap-south-1.amazonaws.com/wp-content/uploads/2022/01/04121439/SharedElement_Android.gif)
+(http://eww-wp-new.s3.ap-south-1.amazonaws.com/wp-content/uploads/2022/01/04121439/SharedElement_Android.gif)
 
 
 ## Requirement
