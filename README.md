@@ -28,7 +28,7 @@ Let’s study step by step how these can be seamlessly implemented in your appli
 Start your work by going to the activity_main.xlm file. Now create a layout with an Image view. Below is the coding for the file (acitivity_main.xml)
 
 In your activity_main.xml File Create a Layout With ImageView
-(
+
         <ImageView
             android:id="@+id/img_tajmahal"
             android:layout_width="150dp"
@@ -42,7 +42,7 @@ In your activity_main.xml File Create a Layout With ImageView
             android:transitionName="@string/transition_name"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
-)
+
 
 ### A Common Transition Name for Both Screens
 
@@ -56,14 +56,14 @@ In order to go from activity 1 to activity 2, one requires the code for that tra
 
 
 So in activity_result.xml Layout Here below is the sample of ImageView.
-(
+
             <ImageView
                 android:id="@+id/img_result"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:scaleType="fitXY"
                 android:transitionName="@string/transition_name" />
-)
+
 
 
 Note:- As you can see we have declared the same transition name in ImageView  (Transition Name must be same as previous ImageView)
@@ -72,13 +72,13 @@ Note:- As you can see we have declared the same transition name in ImageView  (T
 
 To make screen transition animation between two activities,  get back to MainActivity.kt and set intent for going to ResultActivity
 
-(  
+  
 val intent = Intent(this, ResultActivity::class.java)
             val options = ActivityOptionsCompat.makeSceneTransitionAnimation(
                 this, binding.imgGatewayofindia, getString(R.string.transition_name)
             )
             startActivity(intent, options.toBundle())
-)
+
 
 **Note: **add transition animation using "ActivityOptionsCompat" and startActivity with "options"
 
