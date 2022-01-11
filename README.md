@@ -73,14 +73,15 @@ Note:- As you can see we have declared the same transition name in ImageView  (T
 To make screen transition animation between two activities,  get back to MainActivity.kt and set intent for going to ResultActivity
 
   
+  
 val intent = Intent(this, ResultActivity::class.java)
-            val options = ActivityOptionsCompat.makeSceneTransitionAnimation(
+            val options = ActivityOptionsCompat.makeSceneTransitionAnimation(            
                 this, binding.imgGatewayofindia, getString(R.string.transition_name)
-            )
+           
             startActivity(intent, options.toBundle())
 
+Note: add transitionanimation using "ActivityOptionsCompat" and startActivity with "options"
 
-**Note: **add transition animation using "ActivityOptionsCompat" and startActivity with "options"
 
 ## Support
 If you have any questions, issues or propositions, please create a [New Issue](https://github.com/Cleveroad/AdaptiveTableLayout/issues/new) in this repository.
