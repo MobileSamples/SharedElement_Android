@@ -84,6 +84,5 @@ Note: add transitionanimation using "ActivityOptionsCompat" and startActivity wi
 
 
 ## Support
-If you have any questions, issues or propositions, please create a [New Issue](https://github.com/Cleveroad/AdaptiveTableLayout/issues/new) in this repository.
-
-If you want to hire us, send an email to sales@cleveroad.com or fill the form on [Contact us](https://www.cleveroad.com/contact/)
+If you have any questions, issues, or propositions, please create a new issue in this repository.
+If you any questions regarding <a href="https://www.excellentwebworld.com/android-application-development-services/?utm_source=github&utm_campaign=iphone-app-development">Android application development services</a> or want to <a href="https://www.excellentwebworld.com/hire-android-app-developers/?utm_source=github&utm_campaign=hire+android-developers">hire Android app developer</a>, then send an email to sales@cleveroad.com or fill out the form on the contact page
