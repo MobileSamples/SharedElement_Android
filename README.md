@@ -72,14 +72,10 @@ _Note:- As you can see we have declared the same transition name in ImageView  (
 To make screen transition animation between two activities,  get back to MainActivity.kt and set intent for going to ResultActivity
   
   
-`val intent = Intent(this, ResultActivity::class.java)`
-           
- `val options = ActivityOptionsCompat.makeSceneTransitionAnimation(`
-                
-`this, binding.imgGatewayofindia, getString(R.string.transition_name)`
-            `)`
-            
-`startActivity(intent, options.toBundle())`
+    val intent = Intent(this, ResultActivity::class.java)
+    val options = ActivityOptionsCompat.makeSceneTransitionAnimation(
+    this, binding.imgGatewayofindia, getString(R.string.transition_name))
+    startActivity(intent, options.toBundle())
 
 
 _Note: add transitionanimation using "ActivityOptionsCompat" and startActivity with "options"_
