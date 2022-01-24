@@ -46,14 +46,13 @@ In your activity_main.xml File Create a Layout With imageview like below
 
 ### A Common Transition Name for Both Screens
 
-In ImageView declare  transitionname (use any string) Like we mentioned above "android:transitionName="@string/transition_name"
+In ImageView declare  transition name (use any string) Like we mentioned above "android:transitionName="@string/transition_name"
 
 _We have to use this same transition name in another activity/fragment's Imageview respectively ._
 
 ### Open Activity 
 
 In order to go from activity 1 to activity 2, one requires coding for the transition to occur. Below are the codes that perform the same activity.
-
 
 So in our case in the activity_result.xml Layout Here below is the sample of ImageView.
 
@@ -66,7 +65,7 @@ So in our case in the activity_result.xml Layout Here below is the sample of Ima
 
 
 
-Note:- As you can see we have declared the same transition name in ImageView  (Transition Name must be same as previous ImageView)
+_Note:- As you can see we have declared the same transition name in ImageView  (Transition Name must be same as previous ImageView)_
 
 ### Start an Activity with Shared Element
 
@@ -80,9 +79,9 @@ val intent = Intent(this, ResultActivity::class.java)
            
             startActivity(intent, options.toBundle())
 
-Note: add transitionanimation using "ActivityOptionsCompat" and startActivity with "options"
+_Note: add transitionanimation using "ActivityOptionsCompat" and startActivity with "options"_
 
-Credits:- The code was developed by our extremely talented developer Vimars.
+**Credits:- The code was developed by our extremely talented developer Vimars.**
 
 
 ## Support
