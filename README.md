@@ -24,10 +24,10 @@ Android 5.0 (API Level 21) & Above
 ## Implementation of Shared Element Transition in Android
 Let’s study step by step how these can be seamlessly implemented in your application. 
 
-### Create a File and Start Working
-Start your work by going to the activity_main.xlm file. Now create a layout with an Image view. Below is the coding for the file (acitivity_main.xml)
+### In Your Activity’s xml File
+Start your work by going to the activity_main.xlm file. Now create a layout with an Image view. Below is the coding for the file here its activity_main.xml
 
-In your activity_main.xml File Create a Layout With ImageView
+In your activity_main.xml File Create a Layout With imageview like below
 
         <ImageView
             android:id="@+id/img_tajmahal"
@@ -48,14 +48,14 @@ In your activity_main.xml File Create a Layout With ImageView
 
 In ImageView declare  transitionname (use any string) Like we mentioned above "android:transitionName="@string/transition_name"
 
-We have to use this same transition name in another activity/fragment's Imageview.
+_We have to use this same transition name in another activity/fragment's Imageview respectively ._
 
 ### Open Activity 
 
-In order to go from activity 1 to activity 2, one requires the code for that transition to happen. Below are the codes for performing the same activity.
+In order to go from activity 1 to activity 2, one requires coding for the transition to occur. Below are the codes that perform the same activity.
 
 
-So in activity_result.xml Layout Here below is the sample of ImageView.
+So in our case in the activity_result.xml Layout Here below is the sample of ImageView.
 
             <ImageView
                 android:id="@+id/img_result"
@@ -81,6 +81,8 @@ val intent = Intent(this, ResultActivity::class.java)
             startActivity(intent, options.toBundle())
 
 Note: add transitionanimation using "ActivityOptionsCompat" and startActivity with "options"
+
+Credits:- The code was developed by our extremely talented developer Vimars.
 
 
 ## Support
