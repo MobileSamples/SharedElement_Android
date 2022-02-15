@@ -86,3 +86,5 @@ _Note: add transitionanimation using "ActivityOptionsCompat" and startActivity w
 ## Support
 If you have any questions, issues, or propositions, please create a new issue in this repository.
 If you any questions regarding <a href="https://www.excellentwebworld.com/android-app-development-services/?utm_source=github&utm_campaign=android-app-development">Android application development services</a> or want to <a href="https://www.excellentwebworld.com/hire-android-app-developers/?utm_source=github&utm_campaign=hire+android-developers">hire Android app developer</a>, then send an email to biz@excellentwebworld.com or fill out the form on the contact page
+
+<a href="https://github.com/MobileSamples/SharedElement_iOS">Check shared element for iOS</a>.
